@@ -15,7 +15,9 @@ par_mag,Parnum,Parsymb,Parunit,Pardes,Word,Frame,Frame Inc.,onboard_par,extended
 14300,14300,WOWN,LBS,,33,18,64,1,0,activate,
 14330,14330,EMCA,COUNT,,33,11,64,1,0,activate,
 14350,14350,DECOL,DEG,,33,12,64,1,0,activate,
+14351,14351,DECOL,CM,,33,12,64,1,0,activate,
 14370,14370,DRPED,DEG,,33,13,64,1,0,activate,
+14371,14371,DRPED,CM,,33,13,64,1,0,activate,
 14410,14410,DAW,DEG,,33,14,64,1,0,activate,
 14450,14450,AOAFLH,DEG,,33,15,64,1,0,activate,
 14460,14460,AOAFRH,DEG,,33,16,64,1,0,activate,
@@ -94,9 +96,9 @@ par_mag,Parnum,Parsymb,Parunit,Pardes,Word,Frame,Frame Inc.,onboard_par,extended
 28130,28130,AYVTTFS,G,,18,1,4,1,0,activate,
 28140,28140,AYVTTRS,G,,18,2,4,1,0,activate,
 28170,28170,AYRF1,G,,38,2,4,1,0,activate,
-28190,28190,AXRVTP,G,,47,1,1,,,new,21-03-21
-28200,28200,AYRVTP,G,,48,1,1,,,new,21-03-21
-28210,28210,AZRVTP,G,,49,1,1,,,new,21-03-21
+28190,28190,AXRVTP,G,,47,1,0,1,0,new,21-03-21
+28200,28200,AYRVTP,G,,48,1,0,1,0,new,21-03-21
+28210,28210,AZRVTP,G,,49,1,0,1,0,new,21-03-21
 31020,31020,SHWRHF1,LBS,,39,0,8,1,0,activate,
 31040,31040,SHWLHR1,LBS,,39,1,8,1,0,activate,
 31060,31060,BWRHFS2,LBS,,39,2,8,1,0,activate,
@@ -169,7 +171,9 @@ par_mag,Parnum,Parsymb,Parunit,Pardes,Word,Frame,Frame Inc.,onboard_par,extended
 38160_deactived,38160,BVTPRS3,LBS,,45,5,8,1,0,deactived,"exist, but not set on PCM Frame"
 38170_deactived,38170,TRVTFS3,LBS,,45,6,8,1,0,deactived,"exist, but not set on PCM Frame"
 38180_deactived,38180,TRVTRS3,LBS,,45,7,8,1,0,deactived,"exist, but not set on PCM Frame"
-38190,38190,HMRUD,daNmm,,46,0,8,1,0,activate,
+38190,38190,HMRUD,daNmm,,46,0,8,1,0,activate,From FT2200(SEC-defcal)
+38192,38192,HMRUD,LBS,,46,0,8,1,0,activate,Lbs unit
+38193,38193,HMRUD,N/A,,46,0,8,1,0,activate,Electical Value
 45050,45050,PPBV,PSIA,,33,45,64,1,0,activate,
 45090,45090,PBLH,PSIA,,34,0,64,1,0,activate,
 45091,45091,DPBLH,DEG,,34,0,64,1,0,activate,
@@ -181,12 +185,12 @@ par_mag,Parnum,Parsymb,Parunit,Pardes,Word,Frame,Frame Inc.,onboard_par,extended
 54011,54011,FQCTLH,LBS,,29,12,32,1,0,activate,
 54012,54012,OSWTLH,LBS,,29,14,32,1,0,activate,
 54013,54013,TCTLH,DEGC,,29,16,32,1,0,activate,
-,54014,TWTLH,DEGC,,,,,1,0,activate,
+54014,54014,TWTLH,DEGC,,,,,1,0,activate,
 54020,54020,FQRH,LBS,,29,11,32,1,0,activate,
 54021,54021,FQCTRH,LBS,,29,13,32,1,0,activate,
 54022,54022,OSWTFQLH,LBS,,29,15,32,1,0,activate,
 54023,54023,TCTRH,DEGC,,29,17,32,1,0,activate,
-,54024,TWTRH,DEGC,,,,,1,0,activate,
+54024,54024,TWTRH,DEGC,,,,,1,0,activate,
 54030,54030,FLLILH,N/A,,30,53,64,1,0,activate,
 54040,54040,FLLIRH,N/A,,30,54,64,1,0,activate,
 54050,54050,CPDLH,N/A,,29,21,64,1,0,activate,
@@ -226,10 +230,10 @@ pa_mag,Parnum,Parsymb,Parunit,Pardes,Word,Frame,Frame Inc.,onboard_par,extended_
 14461,14461,AOACRH,DEG,,,,,0,1,activate,extended parameter
 14471,14471,BETAC,DEG,,,,,0,1,activate,extended parameter
 38191,38191,HMRUD1,daNmm,,,,,0,1,activate,extended parameter
-38600,38600,SRR,LBS,,,,,0,1,activate,extended parameter
-54093,54093,FQTOTLH,LBS,,,,,0,1,activate,extended parameter
-54094,54094,FQTOTRH,LBS,,,,,0,1,activate,extended parameter
-54095,54095,FQTOT,LBS,,,,,0,1,activate,extended parameter
+38600,38600,SRR,LBS,,,,,0,1,activate,extended parameter From Load Specialist
+54093E,54093,FQTOTLH,LBS,,,,,0,1,activate,extended parameter
+54094E,54094,FQTOTRH,LBS,,,,,0,1,activate,extended parameter
+54095E,54095,FQTOT,LBS,,,,,0,1,activate,extended parameter
 96031,96031,NP1-1,RPM,,,,,0,1,activate,extended parameter
 96041,96041,NP2-1,RPM,,,,,0,1,activate,extended parameter
 96740,96740,PFENG,PSIG,,,,,1,0,activate,temporary parameter
